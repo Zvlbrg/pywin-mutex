@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutex"
+version = "1.0.1"
+authors = [
+  { name="Marius Zavelberg", email="Marius.Zavelberg@t-online.de" },
+]
+description = "A module for creating and using a shared mutex on Windows."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pywin32"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Windows",
+]
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
