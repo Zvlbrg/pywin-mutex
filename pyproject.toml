@@ -3,10 +3,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mutex"
-version = "1.0.1"
+name = "pywin-mutex"
+version = "1.0.0"
 authors = [
-  { name="Marius Zavelberg", email="Marius.Zavelberg@t-online.de" },
+  { name="Zvlbrg", email="MyGithubPage@github.com" },
 ]
 description = "A module for creating and using a shared mutex on Windows."
 readme = "README.md"
@@ -21,5 +21,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = ""
-"Bug Tracker" = ""
+"Homepage" = "https://github.com/Zvlbrg/pywin-mutex"
+"Bug Tracker" = "https://github.com/Zvlbrg/pywin-mutex/issues"
