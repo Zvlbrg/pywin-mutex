@@ -3,6 +3,8 @@
 This module allows the use of a shared mutex on Windows.
 By installing this package the pywin32 module is also installed.
 
+The code has been tested with Python >=3.9.4
+
 # **Installing the Python Package**
 
 Install via PIP: 
